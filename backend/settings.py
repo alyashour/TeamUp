@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'team-up-db',
-        'USER': 'user',
-        'PASSWORD': 'aduo_forp',
+        'USER': 'HamzaKababji',
+        'PASSWORD': 'mZa926Sa_',
         'HOST': 'localhost',
         'PORT': '3306',
     }
