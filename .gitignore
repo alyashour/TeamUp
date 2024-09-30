@@ -1,4 +1,4 @@
 venv/
-backend/__pycache__
+*/__pycache__
 frontend/.vscode
 backend/settings.py
