@@ -2,3 +2,4 @@ venv/
 */__pycache__
 frontend/.vscode
 backend/settings.py
+teamup_app/migrations/__pycache__
