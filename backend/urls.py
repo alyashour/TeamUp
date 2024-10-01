@@ -16,8 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from teamup_app.views import test_api
+from teamup_app.views import test_api  # Assuming you will create an `index` view
 
 urlpatterns = [
-    path('api/test/', test_api, name='test_api')
+    path('', test_api, name='test_api'),  # Route for the root URL
+    path('api/test/', test_api, name='test_api'),
 ]

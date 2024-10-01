@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-m6&gge9bdr_1n-*v$uq5s@+7r#ti$wzvf2d5)wr+e0piggq@g7'
+SECRET_KEY = 'Your-Secret-Key-Here'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -82,8 +82,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'team-up-db',
-        'USER': 'HamzaKababji',
-        'PASSWORD': 'mZa926Sa_',
+        'USER': 'Your-Username',
+        'PASSWORD': 'Your-Password',
         'HOST': 'localhost',
         'PORT': '3306',
     }
